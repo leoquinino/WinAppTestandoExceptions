@@ -1,0 +1,109 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{65465DAB-8943-4D0D-96A3-2CC2F5B537C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>TestandoExceptions</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".vs\ProjectEvaluation\winapptestandoexceptions.metadata.v2" />
+    <None Include=".vs\ProjectEvaluation\winapptestandoexceptions.projects.v2" />
+    <None Include=".vs\WinAppTestandoExceptions\DesignTimeBuild\.dtbcache.v2" />
+    <None Include=".vs\WinAppTestandoExceptions\FileContentIndex\8a427f0b-8cb6-4aeb-83be-5f6c973666ea.vsidx" />
+    <None Include=".vs\WinAppTestandoExceptions\FileContentIndex\read.lock" />
+    <None Include=".vs\WinAppTestandoExceptions\v17\.futdcache.v1" />
+    <None Include=".vs\WinAppTestandoExceptions\v17\.suo" />
+    <None Include="WinAppTestandoExceptions\bin\Debug\net6.0-windows\WinAppTestandoExceptions.deps.json" />
+    <None Include="WinAppTestandoExceptions\bin\Debug\net6.0-windows\WinAppTestandoExceptions.runtimeconfig.json" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.AssemblyInfoInputs.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.assets.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.csproj.AssemblyReference.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.csproj.BuildWithSkipAnalyzers" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.csproj.CoreCompileInputs.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.csproj.GenerateResource.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.designer.deps.json" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.designer.runtimeconfig.json" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.genruntimeconfig.cache" />
+    <None Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\_IsIncrementalBuild" />
+    <None Include="WinAppTestandoExceptions\obj\project.assets.json" />
+    <None Include="WinAppTestandoExceptions\obj\project.nuget.cache" />
+    <None Include="WinAppTestandoExceptions\obj\WinAppTestandoExceptions.csproj.nuget.dgspec.json" />
+    <None Include="WinAppTestandoExceptions\obj\WinAppTestandoExceptions.csproj.nuget.g.props" />
+    <None Include="WinAppTestandoExceptions\obj\WinAppTestandoExceptions.csproj.nuget.g.targets" />
+    <None Include="WinAppTestandoExceptions\WinAppTestandoExceptions.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WinAppTestandoExceptions\Form1.cs" />
+    <Compile Include="WinAppTestandoExceptions\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.AssemblyInfo.cs" />
+    <Compile Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.GlobalUsings.g.cs" />
+    <Compile Include="WinAppTestandoExceptions\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="WinAppTestandoExceptions\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.Form1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="WinAppTestandoExceptions\bin\Debug\net6.0-windows\WinAppTestandoExceptions.dll" />
+    <Content Include="WinAppTestandoExceptions\bin\Debug\net6.0-windows\WinAppTestandoExceptions.exe" />
+    <Content Include="WinAppTestandoExceptions\bin\Debug\net6.0-windows\WinAppTestandoExceptions.pdb" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\apphost.exe" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\refint\WinAppTestandoExceptions.dll" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\ref\WinAppTestandoExceptions.dll" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.csproj.FileListAbsolute.txt" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.dll" />
+    <Content Include="WinAppTestandoExceptions\obj\Debug\net6.0-windows\WinAppTestandoExceptions.pdb" />
+    <Content Include="WinAppTestandoExceptions\WinAppTestandoExceptions.csproj.user" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\TestandoExceptions\v17\" />
+    <Folder Include=".vs\WinAppTestandoExceptions\FileContentIndex\merges\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>
